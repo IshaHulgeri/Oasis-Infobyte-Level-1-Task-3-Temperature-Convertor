@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <div class="title " >
+            <h1>Temperature Calculator</h1>
+            <span class="Temperature-icon">
+
+            <i class="fa-solid fa-temperature-three-quarters"></i></span>
+            </div>
+            
+            <div id="celsius">
+                <input type="number" id="celsiusInput" placeholder="Celsius">
+                <span class="icon">&#8451</span>
+            </div>
+            <div id="fahrenheit">
+                <input type="number" id="fahrenheitInput" placeholder="Fahrenheit">
+                <span class="icon">&#8457</span>
+            </div>
+            <div class="button">
+                <button class="allclear" onclick="clearInputs()">All clear</button>
+            <button id="convertBtn" onclick="convertTemperature()">Convert</button>
+        </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
